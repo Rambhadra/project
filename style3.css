@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Courier New", Courier, monospace;
+}
+
+header {
+    background: black;
+    border: 2px solid;
+}
+
+nav ul {
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 60px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.holdingcontainerfirst{
+    width: 60%;
+    height: 60vh;
+    display: flex;
+    /* background-color: brown; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    
+
+
+}
+.internalcontainer7{
+    flex:  30px;
+    /* background: red; */
+    padding: 50px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+
+}
+.internalcontainer8{
+    flex: 1;
+    /* background: red; */
+    padding: 30px;
+    font-size: 12px;
+    justify-content: center;
+    height: 50vh;
+
+}
+
+.holdingcontainer{
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    /* background-color: brown; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.internalcontainer1{
+    flex: 1;
+    /* background: red; */
+    padding: 30px;
+    font-size: 12px;
+    justify-content: center;
+
+}
+
+.internalcontainer2{
+    flex: 1;
+    /* background: red; */
+    padding: 30px;
+    font-size: 12px;
+    justify-content: center;
+
+
+}
+
+.internalcontainer3{
+    flex: 1;
+    /* background: red; */
+    padding: 30px;
+    font-size: 12px;
+    justify-content: center;
+
+
+}
+
+.internalcontainer4{
+    flex: 1;
+    /* background: red; */
+    padding: 30px;
+    font-size: 12px;
+    justify-content: center;
+
+
+}
+
+.internalcontainer5{
+    flex: 1;
+    /* background: red; */
+    padding: 30px;
+    font-size: 12px;
+
+
+}
+
+.internalcontainer6{
+    flex: 1;
+    /* background: red; */
+    padding: 30px;
+    font-size: 12px;
+    justify-content: center;
+
+
+}
+@media screen and  (max-width:768px){
+    .holdingcontainer{
+        flex-direction: row;
+    }
+}
+.my1{
+    height: 300px;
+    width: 200px;
+}
+.my2{
+    height: 300px;
+    width: 200px;
+}
+.my3{
+    height: 300px;
+    width: 200px;
+}
+.my4{
+    height: 300px;
+    width: 200px;
+}
+.my5{
+    height: 300px;
+    width: 200px;
+}
+.my6{
+    height: 300px;
+    width: 200px;
+    
+}
+.my7{
+    height: 300px;
+    width: 200px;
+    
+}
+h2{
+    justify-content: right;
+}
+.m10 {
+    height: 15px;
+    width: 100px;
+    color: white;
+    background: black;
+}
